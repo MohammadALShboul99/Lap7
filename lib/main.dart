@@ -49,17 +49,22 @@ class _HomeState extends State<Home> {
               width: 300,
               height: 150,
               decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(50),
-                  color: Colors.lime[200],
-                  border: Border.all(color: Colors.lime)),
+                borderRadius: BorderRadius.circular(50),
+                color: Colors.lime[200],
+                border: Border.all(width: 2, color: Colors.lime.shade900),
+              ),
               child: Container(
-                decoration: BoxDecoration(color: Colors.lime[700]),
                 margin: EdgeInsets.all(14),
+                decoration: BoxDecoration(
+                  color: Colors.lime[700],
+                  border: Border.all(width: 3, color: Colors.lime.shade900),
+                  borderRadius: BorderRadius.circular(18),
+                ),
                 width: 400,
                 height: 200,
                 child: Text(
-                  "My Name is Mohammad AL Shboul I Want To Travel Give Me i choice",
-                  style: TextStyle(fontSize: 24),
+                  "My Name is Mohammad AL Shboul I Want To Travel Give Me a choice",
+                  style: TextStyle(fontSize: 20),
                 ),
               ),
             ),

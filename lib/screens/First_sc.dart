@@ -56,7 +56,8 @@ class _First_scState extends State<First_sc> {
               height: 50,
               child: Text(
                 "Where you want to travel ?",
-                style: TextStyle(fontSize: 30),
+                style: TextStyle(
+                    fontSize: 30, color: Color.fromARGB(255, 4, 196, 239)),
               ),
             ),
             SizedBox(

@@ -77,6 +77,9 @@ class _Secound_scState extends State<Secound_sc> {
                   style: TextStyle(fontSize: 25),
                 ),
                 RadioListTile(
+                  secondary: Container(
+                      color: Colors.orange, child: Icon(Icons.airplane_ticket)),
+                  activeColor: Colors.orange,
                   title: Text(
                     "First Class ",
                     style: TextStyle(fontSize: 20, color: Colors.deepOrange),
@@ -90,6 +93,9 @@ class _Secound_scState extends State<Secound_sc> {
                   },
                 ),
                 RadioListTile(
+                  secondary: Container(
+                      color: Colors.orange, child: Icon(Icons.airplane_ticket)),
+                  activeColor: Colors.orange,
                   title: Text(
                     "Business Class",
                     style: TextStyle(fontSize: 20, color: Colors.deepOrange),
@@ -103,6 +109,10 @@ class _Secound_scState extends State<Secound_sc> {
                   },
                 ),
                 RadioListTile(
+                  activeColor: Colors.orange,
+                  selectedTileColor: Colors.orange,
+                  secondary: Container(
+                      color: Colors.orange, child: Icon(Icons.airplane_ticket)),
                   title: Text(
                     "Premium Economy Class",
                     style: TextStyle(fontSize: 20, color: Colors.deepOrange),
@@ -116,6 +126,9 @@ class _Secound_scState extends State<Secound_sc> {
                   },
                 ),
                 RadioListTile(
+                  secondary: Container(
+                      color: Colors.orange, child: Icon(Icons.airplane_ticket)),
+                  activeColor: Colors.orange,
                   title: Text(
                     "Economy Class",
                     style: TextStyle(fontSize: 20, color: Colors.deepOrange),
